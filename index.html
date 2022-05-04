@@ -31,7 +31,11 @@
             <li>通过搜索求解问题</li>
             <li>利用外部信息的启发式搜索</li>
           </ul>
-
+          <li><a href="#p1">编程实践</a></li>
+          <ul>
+            <li>示例：迷宫搜索</li>
+            <li>项目：七度社会网络搜索</li>
+          </ul>
         </ul>
         <li><a href="#adv">对抗搜索</a></li>
         <ul>
@@ -42,6 +46,10 @@
           <li><a href="#s2">同学分享</a></li>
           <ul>
             <li>对抗性游戏</li>
+          </ul>
+          <li><a href="#p2">编程实践</a></li>
+          <ul>
+            <li>项目：Tit-Tac-Toe 对抗游戏</li>
           </ul>
         </ul>
         <li><a href="#beyond">超越经典搜索</a></li>
@@ -63,6 +71,11 @@
             <li>动作效果不确定下的搜索</li>
             <li>环境不确定下的搜索</li>
           </ul>
+          <li><a href="#p3">编程实践</a></li>
+          <ul>
+            <li>示例：爬山算法求解医院最佳选址</li>
+            <li>示例：线性规划求解工厂机器调度</li>
+          </ul>
         </ul>
         <li><a href="#cs">约束满足问题</a></li>
         <ul>
@@ -78,14 +91,22 @@
             <li>AC-3 应用：毒贩房间侦查</li>
             <li>回溯与智能回溯</li>
           </ul>
+          <li><a href="#p4">编程实践</a></li>
+          <ul>
+            <li>示例：基础回溯求解考试安排</li>
+            <li>项目：约束满足求解填词游戏</li>
+          </ul>
         </ul>
         <li><a href="#ext">扩展</a></li>
         <ul>
           <li>概率推理基础</li>
           <li>卡尔曼滤波</li>
         </ul>
-      <li><a href="#ref">参考材料</a></li>
-    </ul>
+      <li><a href="#ref">课程材料</a></li>
+        <ul>
+          <li>哈佛 CS50 AI 课程</li>
+          <li>《人工智能：一种现代方法》</li>
+        </ul>    </ul>
     <!-- == -->
 
     <h1><a name="search">1、搜索</a></h1>
@@ -115,6 +136,12 @@
     <p>吕岩同学首先为大家带来一个例子：用贪婪搜索与A*搜索求解罗马尼亚地图最短路径问题。然后，她用动画为大家比较了这些算法与广度优先搜索、一致代价搜索（即 Dijkstra 算法）的效果，非常漂亮。最后讨论了“利用外部信息的启发式搜索”的“一致性”和“可采纳性”问题，并用一个习题进行了说明，非常精彩。快来看看吧。</p>
     <p><a href="https://www.bilibili.com/video/BV1mA4y1D7Uq">B站视频</a></p>
 
+    <h2><a name="p1">1.3 编程实践</a></h2>
+    <ul>
+      <li>示例：迷宫搜索，<a href="http://cdn.cs50.net/ai/2020/spring/lectures/0/src0.zip">代码链接</a></li>
+      <li>项目：七度社会网络搜索，<a href="https://cs50.harvard.edu/ai/2020/projects/0/degrees/">介绍及初始代码链接</a></li>
+    </ul>
+
     <h1><a name="adv">2、对抗搜索</a></h1>
 
     <p>课本 第5章 对抗搜索</p>
@@ -129,6 +156,11 @@
 
     <h3>享3：对抗性游戏</h3>
     <p>王子悦同学介绍对抗性游戏的算法，并讲解如何在网球比赛中应用该算法。我猜他一定喜欢打网球。<a href="https://www.bilibili.com/video/BV1HS4y1w74q">B站视频</a></p>
+
+    <h2><a name="p2">2.3 编程实践</a></h2>
+    <ul>
+      <li>项目：Tit-Tac-Toe 对抗游戏，<a href="https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/">介绍及初始代码链接</a></li>
+    </ul>
 
     <h1><a name="beyond">3、超越经典搜索</a></h1>
     <p>课本：第4章 </p>
@@ -182,6 +214,13 @@
     <p>儒曼同学为我们带来超越经典搜索的最后一部分：无感知的搜索（机器人知道有2个房间，但不知道自己的初始位置和垃圾分布））、部分可观察信息的搜索（如机器人有垃圾传感器、能够感知自己东西南北方向是否有障碍物）、未知环境下的联机搜索（探索 + 搜索），并通过练习演示真实的体验。非常精彩。</p>
     <p><a href="https://www.bilibili.com/video/BV1Fu411r7pC">B站视频</a></p>
 
+    <h2><a name="p3">3.3 编程实践</a></h2>
+    <ul>
+      <li>示例：爬山算法求解医院最佳选址</li>
+      <li>示例：线性规划求解工厂机器调度</li>
+      <li><a href="http://cdn.cs50.net/ai/2020/spring/lectures/3/src3.zip">代码链接</a></li>
+    </ul>
+
     <h1><a name="cs">4、约束满足问题</a></h1>
     <p>课本：第6章 约束满足问题</p>
 
@@ -213,6 +252,12 @@
     <p>张绮璇同学通过图着色问题，介绍提高回溯搜索效率的各种方法，举例，并介绍智能回溯的基本概念。</p>
     <p><a href="https://www.bilibili.com/video/BV1bY4y1k7nk">B站视频</a></p>
 
+    <h2><a name="p4">4.3 编程实践</a></h2>
+    <ul>
+      <li>示例：基础回溯求解考试安排，<a href="http://cdn.cs50.net/ai/2020/spring/lectures/3/src3.zip">代码链接</a></li>
+      <li>项目：约束满足求解填词游戏，<a href="https://cs50.harvard.edu/ai/2020/projects/3/crossword/">介绍及初始代码链接</a></li>
+    </ul>
+
     <h1><a name="ext">5、扩展</a></h1>
 
     <h3>享13：概率推理基础</h3>
@@ -223,11 +268,11 @@
     <p>林映廷同学为大家带来卡尔曼滤波。林映廷同学用一个自行车运动员位置跟踪的例子，为大家讲解了卡尔曼滤波的原理，强调了卡尔曼滤波在多传感器融合方面的应用，非常专业。快来看看吧。</p>
     <p><a href="https://www.bilibili.com/video/BV1EU4y1U74T">B站视频</a></p>
 
-    <h1><a name="ref">6、参考材料</a></h1>
+    <h1><a name="ref">6、课程材料</a></h1>
 
     <ul>
-      <li>罗素和诺维格，《人工智能：一种现代方法》，第四版，第2章，问题求解，<a href="http://aima.cs.berkeley.edu/">链接</a></li>
-      <li>哈佛 CS50 AI 课程，PPT、讲义、课堂代码、项目（含初始代码），强烈推荐，<a href="https://cs50.harvard.edu/ai/2020/">链接</a></li>
+      <li>老师讲解部分，采用哈佛 CS50 AI 课程材料。感谢哈佛开源所有 PPT、讲义、课堂代码、项目（含初始代码），强烈推荐，<a href="https://cs50.harvard.edu/ai/2020/">链接</a></li>
+      <li>同学阅读和练习部分，采用罗素和诺维格的课本《人工智能：一种现代方法》，第四版，第2章，问题求解，强烈推荐，<a href="http://aima.cs.berkeley.edu/">链接</a></li>
     </ul>
 
   </body>
