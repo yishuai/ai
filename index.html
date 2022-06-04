@@ -30,6 +30,7 @@
           <ul>
             <li>通过搜索求解问题</li>
             <li>利用外部信息的启发式搜索</li>
+            <li>课本学习分享报告</li>
           </ul>
           <li><a href="#p1">编程实践</a></li>
           <ul>
@@ -90,6 +91,7 @@
             <li>约束满足问题中的推理</li>
             <li>AC-3 应用：毒贩房间侦查</li>
             <li>回溯与智能回溯</li>
+            <li>课本学习分享报告</li>
           </ul>
           <li><a href="#p4">编程实践</a></li>
           <ul>
@@ -99,14 +101,29 @@
         </ul>
         <li><a href="#ext">扩展</a></li>
         <ul>
-          <li>概率推理基础</li>
-          <li>卡尔曼滤波</li>
+          <li><a href="#s5">同学分享</a></li>
+          <ul>
+            <li>概率推理基础</li>
+            <li>卡尔曼滤波</li>
+            <li>课本学习分享报告</li>
+          </ul>
+          <li><a href="#p5">编程实践</a></li>
         </ul>
+      <li><a href="#reading">应用</a></li>
+      <ul>
+        <li>5G 网络故障根因定位</li>
+        <li>数据中心网络流量仿真和性能估计</li>
+        <li>增强学习网络规划</li>
+        <li>语音数据增强</li>
+        <li>虚拟现实宠物重构</li>
+        <li>常识推理</li>
+      </ul>
       <li><a href="#ref">课程材料</a></li>
-        <ul>
-          <li>哈佛 CS50 AI 课程</li>
-          <li>《人工智能：一种现代方法》</li>
-        </ul>    </ul>
+      <ul>
+        <li>哈佛 CS50 AI 课程</li>
+        <li>《人工智能：一种现代方法》</li>
+      </ul>
+    </ul>
     <!-- == -->
 
     <h1><a name="search">1、搜索</a></h1>
@@ -136,10 +153,29 @@
     <p>吕岩同学首先为大家带来一个例子：用贪婪搜索与A*搜索求解罗马尼亚地图最短路径问题。然后，她用动画为大家比较了这些算法与广度优先搜索、一致代价搜索（即 Dijkstra 算法）的效果，非常漂亮。最后讨论了“利用外部信息的启发式搜索”的“一致性”和“可采纳性”问题，并用一个习题进行了说明，非常精彩。快来看看吧。</p>
     <p><a href="https://www.bilibili.com/video/BV1mA4y1D7Uq">B站视频</a></p>
 
+    <h3>读1：课本学习分享</h3>
+    <ul>
+      <li>第 1 章，导论，<a href="2022/read/book/jiang.docx">姜俊泽</a></li>
+      <li>第 2 章，搜索，<a href="2022/read/book/huang1.pdf">黄宇轩</a>，<a href="2022/read/book/qing.docx">秦欣毓</a>，<a href="2022/read/book/hong.pdf">洪坤烨</a>，<a href="2022/read/book/ma.docx">麻言荣</a>，<a href="2022/read/book/li.pdf">李晨晔</a></li>
+    </ul>
+
     <h2><a name="p1">1.3 编程实践</a></h2>
     <ul>
       <li>示例：迷宫搜索，<a href="http://cdn.cs50.net/ai/2020/spring/lectures/0/src0.zip">代码链接</a></li>
+      <ul>
+        <li>乔千，
+          <a href="https://www.bilibili.com/video/BV1bg411d7ti/">B站视频</a>，<a
+            href="https://github.com/LinYinRin/-/tree/master">Github代码</a>，<a href="report/2022/qiao.pdf">项目报告</a>
+        <li>儒曼，迷宫，<a href="report/2022/ru.zip">代码</a>，<a href="report/2022/ru.pdf">项目报告</a>
+        </li>
+      </ul>
       <li>项目：七度社会网络搜索，<a href="https://cs50.harvard.edu/ai/2020/projects/0/degrees/">介绍及初始代码链接</a></li>
+      <ul>
+        <li>孙以琳：含贝叶斯网络，<a href="https://www.bilibili.com/video/BV1ur4y1t7WD">B站视频</a>，<a href="report/2022/sun.docx">项目报告</a></li>
+        <li>陆彬捷，<a href="https://www.bilibili.com/video/BV1cA4y1Z7gQ?pop_share=1">B站视频</a>，<a href="https://github.com/dookie678/tree-holes/tree/dookie678-Harvard-AI50-degrees">Github代码</a>，<a href="report/2022/lu.pdf">项目报告</a></li>
+        <li>罗叶菲，<a href="#">B站视频</a>，<a href="report/2022/luo.py">Python 代码</a>，<a href="report/2022/luo.pdf">项目报告</a></li>
+        <li>徐增武，<a href="https://www.bilibili.com/video/BV1pA4y1Z7BX">B站视频</a>，<a href="https://github.com/xxx555666/project">Github代码</a>，<a href="report/2022/xu.docx">项目报告</a></li>
+      </ul>
     </ul>
 
     <h1><a name="adv">2、对抗搜索</a></h1>
@@ -155,11 +191,28 @@
     <h2><a name="s2">2.2 同学分享</a></h2>
 
     <h3>享3：对抗性游戏</h3>
-    <p>王子悦同学介绍对抗性游戏的算法，并讲解如何在网球比赛中应用该算法。我猜他一定喜欢打网球。<a href="https://www.bilibili.com/video/BV1HS4y1w74q">B站视频</a></p>
+    <p>王子悦同学介绍对抗性游戏的算法，并讲解如何在网球比赛中应用该算法。我猜他一定喜欢打网球。</p>
+    <p><a href="https://www.bilibili.com/video/BV1HS4y1w74q">B站视频</a></p>
 
     <h2><a name="p2">2.3 编程实践</a></h2>
     <ul>
       <li>项目：Tit-Tac-Toe 对抗游戏，<a href="https://cs50.harvard.edu/ai/2020/projects/0/tictactoe/">介绍及初始代码链接</a></li>
+      <ul>
+        <li>陈鲽晴，董潇宇，蒋逸，<a href="https://www.bilibili.com/video/BV1fB4y197ZQ">B站视频</a>，<a href="https://github.com/dddxy123/dxy-cdq-jy-team/tree/main">Github代码</a>，<a href="report/2022/chen.docx">项目报告</a> </li>
+        <li>方翔，<a href="https://www.bilibili.com/video/BV1L54y1Z7o3">B站视频</a>，<a href="https://github.com/fangxiang0822/Aiprojcet">Github代码</a>，<a href="report/2022/fang.pdf">项目报告</a></li>
+        <li>李卓音，<a href="https://www.bilibili.com/video/BV1s54y1f7ub">B站视频</a>，<a href="https://github.com/Dromdore/tictactoe">Github代码</a>，<a href="report/2022/li.pdf">项目报告</a></li>
+        <li>乔千，B站视频：<a href="https://www.bilibili.com/video/BV1bg411d7ti/">迷宫</a>，
+        <a href="https://www.bilibili.com/video/BV1u3411P7Dg/">八皇后</a>，
+        <a href="https://www.bilibili.com/video/BV1yY4y1z7Xc/">井字棋</a>，<a href="https://github.com/LinYinRin/-/tree/master">Github代码</a>，<a href="report/2022/qiao.pdf">项目报告</a>
+        <li>儒曼，B站视频：
+          <a href="#">迷宫</a>，
+          <a href="#">六度</a>，
+          <a href="#">井字棋</a>，<a
+            href="report/2022/ru.zip">代码</a>，<a href="report/2022/qiao.pdf">项目报告</a>
+        </li>
+        <li>言晓梅，Tic-Tac-Toe，<a href="https://www.bilibili.com/video/BV1aY4y157VL/">B站视频</a>，<a
+            href="https://github.com/yanxiaomei-github/tictactoe">Github链接</a>，<a href="report/2022/yan.pdf">项目报告</a></li>
+      </ul>
     </ul>
 
     <h1><a name="beyond">3、超越经典搜索</a></h1>
@@ -187,7 +240,7 @@
 
     <h3>享4：遗传算法原理</h3>
     <p>孙以琳同学为大家带来遗传算法。孙以琳同学详细介绍了遗传算法的交叉、适合度、选择方法，并编程实验了用该算法解决旅行商问题，然后同学们展开了热烈的讨论。快来看看吧。</p>
-    <p><a href="https://www.bilibili.com/video/BV1S3411K7oC">B站视频</a></p>
+    <p>B站视频：<a href="https://www.bilibili.com/video/BV1Da411E7d3/">讲解</a>，<a href="https://www.bilibili.com/video/BV1S3411K7oC">课上报告</a></p>
 
     <h3>享5：遗传算法求解方程极值</h3>
     <p>陈鲽晴同学为大家演示用遗传算法求解方程极值的问题。他并最后指出遗传算法的一个重要优点，就是：不用担心如何找到最优解，只要淘汰掉那些表现不好的个体就好了。怎么样，这个思考深刻吧。：D </p>
@@ -200,7 +253,7 @@
 
     <h3>享7：蚁群优化算法</h3>
     <p>言晓梅同学为大家带来蚁群算法。晓梅同学首先用一个非常有趣的蚂蚁纪录片，为大家展示蚂蚁们工作时的场景，然后细致地讲解了蚁群算法的细节，并用该算法解决旅行商问题，非常精彩。快来看看吧。</p>
-    <p><a href="https://www.bilibili.com/video/BV1rB4y117CH">B站视频</a></p>
+    <p>B站视频：<a href="https://www.bilibili.com/video/BV1ca411E7zB/">讲解</a>，<a href="https://www.bilibili.com/video/BV1rB4y117CH">课上报告</a></p>
 
     <h3>享8：粒子群优化算法</h3>
     <p>罗叶菲同学为大家带来粒子群优化算法。该算法仿生鸟群捕食行为，利用个体对信息的共享，搜索最优解，非常有意思。快来看看吧。</p>
@@ -208,7 +261,7 @@
 
     <h3>享9：动作效果不确定下的搜索</h3>
     <p>乔千同学通过吸尘器的例子，重点讲述了动作效果不确定时的搜索，包括：分析该问题用到的“与或搜索树”模型、求解用到的AO* 算法、以及动作失效的解决办法（不断重试），并演示了代码，非常精彩。</p>
-    <p><a href="https://www.bilibili.com/video/BV1Ku411r7mQ">B站视频</a></p>
+    <p>B站视频：<a href="https://www.bilibili.com/video/BV1oU4y1m7E9/">讲解</a>，<a href="https://www.bilibili.com/video/BV1Ku411r7mQ">课上报告</a></p>
 
     <h3>享10：环境不确定下的搜索</h3>
     <p>儒曼同学为我们带来超越经典搜索的最后一部分：无感知的搜索（机器人知道有2个房间，但不知道自己的初始位置和垃圾分布））、部分可观察信息的搜索（如机器人有垃圾传感器、能够感知自己东西南北方向是否有障碍物）、未知环境下的联机搜索（探索 + 搜索），并通过练习演示真实的体验。非常精彩。</p>
@@ -219,6 +272,7 @@
       <li>示例：爬山算法求解医院最佳选址</li>
       <li>示例：线性规划求解工厂机器调度</li>
       <li><a href="http://cdn.cs50.net/ai/2020/spring/lectures/3/src3.zip">代码链接</a></li>
+      <li>张雪松，陈洛，HMM和线性规划方法实验，<a href="https://www.bilibili.com/video/BV125411R7xK/">B站视频</a>，<a href="report/2022/zhang.zip">代码</a>，<a href="report/2022/zhang.docx">项目报告</a></li>
     </ul>
 
     <h1><a name="cs">4、约束满足问题</a></h1>
@@ -249,26 +303,100 @@
     <p><a href="https://www.bilibili.com/video/BV1RY4y1p7Sn">B站视频</a></p>
 
     <h3>享12：回溯与智能回溯</h3>
-    <p>张绮璇同学通过图着色问题，介绍提高回溯搜索效率的各种方法，举例，并介绍智能回溯的基本概念。</p>
-    <p><a href="https://www.bilibili.com/video/BV1bY4y1k7nk">B站视频</a></p>
+    <p>张绮璇，李卓音同学通过图着色问题，介绍提高回溯搜索效率的各种方法，举例，并介绍智能回溯的基本概念。</p>
+    <p>B站视频：<a href="https://www.bilibili.com/video/BV1bY4y1k7nk">张绮璇同学</a>，<a href="https://www.bilibili.com/video/BV12U4y1U79K">李卓音同学</a></p>
+
+    <h3>读2：课本学习分享</h3>
+    <ul>
+      <li>第 5 章，约束满足，<a href="2022/read/book/tao.pdf">陶洁婷</a>，<a href="2022/read/book/wang.docx">王海博</a></li>
+    </ul>
 
     <h2><a name="p4">4.3 编程实践</a></h2>
     <ul>
       <li>示例：基础回溯求解考试安排，<a href="http://cdn.cs50.net/ai/2020/spring/lectures/3/src3.zip">代码链接</a></li>
       <li>项目：约束满足求解填词游戏，<a href="https://cs50.harvard.edu/ai/2020/projects/3/crossword/">介绍及初始代码链接</a></li>
+      <li>张绮璇，白方，CS221 课程安排优化，<a href="https://www.bilibili.com/video/BV13A4y1Q7C3">B站视频</a>，<a href="https://github.com/Zhangqx011/course-scheduling">Github</a>，项目报告：<a href="report/2022/bai.docx">白方</a>，<a href="report/2022/zhang2.docx">张绮璇</a></li>
     </ul>
 
     <h1><a name="ext">5、扩展</a></h1>
 
+    <h2><a name="s5">5.1 同学分享</a></h2>
+
     <h3>享13：概率推理基础</h3>
     <p>吴志航同学给大家带来人工智能概率推理的基础知识，包括概率、贝叶斯定理。</p>
-    <p><a href="https://www.bilibili.com/video/BV1jT4y1k7D2">B站视频</a></p>
+    <p>B站视频：<a href="https://www.bilibili.com/video/BV1Xq4y1Y717">讲解</a>，<a href="https://www.bilibili.com/video/BV1jT4y1k7D2">课上报告</a></p>
 
     <h3>享14：卡尔曼滤波</h3>
     <p>林映廷同学为大家带来卡尔曼滤波。林映廷同学用一个自行车运动员位置跟踪的例子，为大家讲解了卡尔曼滤波的原理，强调了卡尔曼滤波在多传感器融合方面的应用，非常专业。快来看看吧。</p>
     <p><a href="https://www.bilibili.com/video/BV1EU4y1U74T">B站视频</a></p>
 
-    <h1><a name="ref">6、课程材料</a></h1>
+    <h3>享15：Beam 搜索</h3>
+    <p>蒋毅同学为大家带来Beam搜索的原理。它在自然语言处理里非常常用哦。快来看看吧。</p>
+    <p><a href="https://www.bilibili.com/video/BV1ra411i7ZQ">B站视频</a>，<a href="read/2022/book/jiang-beam.docx">介绍</a></p>
+
+    <h3>读2：课本学习分享</h3>
+    <ul>
+      <li>包凯丰，第 14 章，时间上的概率推理，<a href="2022/read/book/bao.pdf">分享报告</a></li>
+      <li>朱萌萌，第 14 章，卡尔曼滤波，<a href="2022/read/book/zhu.pdf">分享报告</a></li>
+      <li>罗叶菲，第 17 章，马尔科夫决策过程，<a href="2022/read/book/luo.doc">分享报告</a></li>
+      <li>程起初，第 18 章，样例学习，<a href="2022/read/book/cheng.doc">分享报告</a></li>
+      <li>黄家祺，第 18 章，样例学习，<a href="2022/read/book/huang.pdf">分享报告</a></li>
+      <li>王一帆，第 25 章，计算机视觉，<a href="2022/read/book/wang.pdf">分享报告</a></li>
+    </ul>
+
+    <h2><a name="p5">5.2 编程实践</a></h2>
+      <ul>
+        <li>林映廷：SGD和K-means算法实现及其在文本情感分析中的应用，<a href="https://www.bilibili.com/video/BV1AW4y1C7Fa/">B站视频</a>，<a
+            href="https://github.com/lin-yingting/work">Github代码</a>，<a href="report/2022/lin.pdf">项目报告</a></li>
+        <li>王雷，遗传基因贝叶斯网络概率推断，<a href="report/2022/wang.py">Python 代码</a>，<a href="report/2022/wang.docx">项目报告</a></li>
+        <li>王子悦，基于神经网络的交通路牌分类，<a href="report/2022/wang.pdf">项目报告</a></li>
+        <li>郑祎杰，CS221人工智能基础练习1：优化、概率、复杂度分析、AI伦理、Python文本处理基础，<a href="https://www.bilibili.com/video/BV1L3411V7eT">B站视频</a>，<a
+            href="https://github.com/VoyagerXvoyagerx/AIFoundations">Github代码</a>，<a href="report/2022/zheng.pdf">项目报告</a>
+        </li>
+      </ul>
+
+    <h1><a name="reading">6、应用</a></h1>
+
+    <h2>6.1 5G 网络故障根因定位</h2>
+    <p> IEEE ICASSP 2022 5G 网络故障根因定位 挑战赛</p>
+    <p>香港中文大学(深圳)- 深圳大数据研究院- 华为 未来网络系统优化创新实验室</p>
+    <p>5G 无线网络故障根因定位是网络运维中的一个重要环节，通过快速且准确地判断出网络故障的根因，技术人员可以及时采取措施对网络进行修复。然而，现网经常受困于复杂的无线通信环境和网络部署结构，且存在网络故障样本数少、不同的场景下故障表征差异性大等问题。如何充分利用领域知识和一小部分标定数据，使用统计学习和因果推断技术，快速准确地定位故障的根因，是网络运维面临的巨大挑战。</p>
+    <p>竞赛网站（包括数据说明）：<a href="https://www.aiops.sribd.cn/home/introduction">网站</a>, 论文（<a href="https://www.aiops.sribd.cn/ICASSP-SPGC%202022%20ROOT%20CAUSE%20ANALYSIS%20FOR%20WIRELESS%20NETWORK%20FAULT%20LOCALIZATION.pdf">PDF</a>）
+    <p>阅读材料：
+      <ul>
+        <li>阿里达摩院第一名论文：NetRCA: An Effective Network Fault Cause Localization Algorithm，<a href="https://arxiv.org/pdf/2202.11269">论文链接</a></li>
+        <ul>
+          <li>学习分享：<a href="2022/read/netrca/ma.docx">马巍孺</a>
+            ，<a href="2022/read/netrca/wang.pdf">王海旭</a>
+            ，<a href="2022/read/netrca/du.pdf">杜飞</a>
+            ，<a href="2022/read/netrca/yan.pdf">言晓梅</a>
+            ，<a href="2022/read/netrca/gu.pdf">顾阳</a>
+            ，<a href="2022/read/netrca/jiang.pdf">蒋梦晗</a>
+            ，<a href="2022/read/netrca/lv.docx">吕梦</a></li>
+        </ul>
+        <li>北京交通大学网络智能实验室第三名论文，Accurate Inference of Unseen Combinations of Multiple Rootcauses with Classifier Ensemble，<a href="https://github.com/BJTU-Netcomm/nilab/raw/master/2022/Zhangxuan/icassp2022.pdf">PDF</a></li>
+        <ul>
+          <li>学习分享，<a href="2022/read/unseen/zhang.pdf">张恒瑜</a>
+            ，<a href="2022/read/unseen/su.pdf">苏小宁</a>
+            ，<a href="2022/read/unseen/wang.pdf">王婧哲</a></li>
+        </ul>
+      </ul>
+    </p>
+
+    <h2>6.2 学术论文</h2>
+    <ul>
+      <li>关博予，语音数据增强，SpecMix : A Mixed Sample Data Augmentation method for Training with Time-Frequency Domain Features，
+        Interspeech 2021，<a href="2022/read/app/guan.pdf">学习分享</a></li>
+      <li>韦国轩，数据中心网络流量仿真和性能估计，MimicNet: Fast Performance Estimates for Data Center Networks with Machine Learning, Sigcomm
+        2021，<a href="2022/read/app/wei.pdf">学习分享</a></li>
+      <li>杨溟豪，虚拟现实宠物重构，Artemis: Articulated Neural Pets with Appearance and Motion Synthesis，arXiv 2021，<a
+          href="2022/read/app/yang.pdf">学习分享</a></li>
+      <li>雷雨诗，增强学习网络规划，Network Planning with Deep Reinforcement Learning， Sigcomm 2021，<a href="2022/read/app/lei.docx">学习分享</a></li>
+      <li>赵司祺，常识推理，Commonsense Reasoning with Implicit Knowledge in Natural Language， AKBC 2021<a
+          href="2022/read/app/zhao.pdf">学习分享</a></li>
+    </ul>
+
+    <h1><a name="ref">7、课程材料</a></h1>
 
     <ul>
       <li>老师讲解部分，采用哈佛 CS50 AI 课程材料。感谢哈佛开源所有 PPT、讲义、课堂代码、项目（含初始代码），强烈推荐，<a href="https://cs50.harvard.edu/ai/2020/">链接</a></li>
